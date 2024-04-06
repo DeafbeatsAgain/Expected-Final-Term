@@ -3,10 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Graduation Date Estimator</title>
+    <title>
+        <div>Graduation Date Estimator</div>
+    </title>
     <link rel="stylesheet" href="style.css">
 </head>
+
+<!--
+    map of the page:
+    body
+        header
+            logo
+            title
+        main
+            form
+                current term
+                current year
+                credits remaining
+                attending summer terms
+                status
+                result
+                button
+        footer
+            project by
+            last updated
+        script
+-->
 <body>
+    <img class="logo" src="SLU-Logo.png" alt="SLU Logo" width="200">
     <h2 class="page-title">Final Term Estimator</h2>
     <div class="app-container">
         <form id="graduationEstimatorForm">
@@ -47,12 +71,17 @@
             </div>
             
             <br>
-            
-            <button type="button" onclick="estimateGraduationDate()">Estimate Graduation Date</button>
+            <div id="result"></div>
+            <br>
+
+            <button type="button" onclick="estimateGraduationDate()">Estimate Final Term</button>
         </form>
     </div>
-    <div id="result"></div>
-
+    <footer>
+        A project by Luis E. Barba-Martin
+        <br>
+        Last Updated: 04/05/2025
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
