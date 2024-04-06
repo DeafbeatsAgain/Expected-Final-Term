@@ -1,0 +1,63 @@
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: rgb(131, 204, 143);
+}
+
+/* Form Elements */
+label {
+    margin-top: 10px;
+    display: block;
+}
+
+input, select, button {
+    margin-top: 5px;
+}
+
+/* Container Styles */
+.app-container {
+    border: 3px solid #000000;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: rgb(19, 90, 31);
+}
+
+/* Output Display */
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Typography */
+.var-title, .page-title {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.page-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Layout for Radio Buttons */
+.radio-group-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.radio-group {
+    flex-basis: 48%;
+    margin-bottom: 20px;
+}
+
+.radio-label {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.radio-options label {
+    display: block;
+}
