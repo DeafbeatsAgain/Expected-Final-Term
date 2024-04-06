@@ -2,7 +2,7 @@ Hello!
 
 This tool is build for a Success Coach to calculate a students expected graduation date, aka what is their final term.
 
-You muster know:
+You must know:
 Current Term
 Current Year
 Credits Remaining
